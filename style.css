@@ -4,41 +4,51 @@
 
 #child1{
     color: rgb(71, 212, 205);
+    font-size: 11%;
 }
 
 #child2{
     color: rgb(109, 71, 212);
+    font-size: 12%;
 }
 
 #child3{
     color: rgb(161, 21, 115);
+    font-size: 14%;
 }
 
 #child4{
     color: rgb(200, 71, 212);
+    font-size: 15%;
 }
 
 #child5{
     color: rgb(212, 191, 71);
+    font-size: 16%;
 }
 
 #child6{
     color: rgb(16, 43, 48);
+    font-size: 17%;
 }
 
 #child7{
     color: rgb(80, 20, 77);
+    font-size: 18%;
 }
 
 #child8{
     color: rgb(167, 168, 112);
+    font-size: 19%;
 }
 
 #child9{
     color: rgb(231, 142, 24);
+    font-size: 20%;
 }
 
 #child10{
     color: rgb(224, 102, 20);
+    font-size: 21%;
 }
 

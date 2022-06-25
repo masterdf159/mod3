@@ -52,6 +52,8 @@
 }
 
 .container{
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -68,4 +70,6 @@
 .letter{
     font-size: 19px;
     color: white;
+    justify-content: center;
+    padding: auto;
 }

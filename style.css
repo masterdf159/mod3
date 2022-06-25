@@ -52,10 +52,10 @@
 }
 
 .container{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-row: auto;
     gap: 10px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .child{

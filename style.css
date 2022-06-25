@@ -52,8 +52,6 @@
 }
 
 .container{
-    height: 500px;
-    width: 500px;
     display: flex;
     flex-direction: row;
     gap: 10px;

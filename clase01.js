@@ -94,12 +94,14 @@ function operadores(action){
         console.log('no hay operacion disponible')
     }
 
-    
+
 }
+
 
 console.log(operadores('suma'), 'suma')
 console.log(operadores('resta'), 'resta')
 console.log(operadores('multi'), 'multi')
 console.log(operadores('divi'), 'divi')
+
 
 

@@ -154,6 +154,46 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
 
  }*/
 
+ /*Realizar una función de tienda de coches, si el coche es de marca ford tiene un 
+ descuento del 5%, si el coche es chevrolet tiene un descuento del 10% si es de marca 
+ mazda un descuento del 50% y kit de carretera debe recibir por parametro de entrada 
+ la marca del vehiculo y el valor del vehiculo 
  
+ Coche
+ Marca: Ford  ----- chevrolet ------- Mazda + kit 
+ descuento: 5% ---------- 10% ------- 50% 
+ */
+
+
+ carshop()
+
+ function switchcarshop(marca , valor){
+       const mazda = 5/100
+       const ford = 10/100
+       const chevrolet = 50/100
+
+        switch(marca){
+        case 'Mazda':
+        return 'costo del carro es ${valor} y su descuento es de ${valor * mazda}'
+        break;
+        case 'ford':
+        return 'costo del carro es ${valor} y su descuento es de ${valor * ford}'
+        break;
+        case 'chevrolet':
+        return 'costo del carro es ${valor} y su descuento es de ${valor * chevrolet}'
+        break;
+
+        default:
+            console.log('operador no esta definido')
+    
+        }
+    
+        
+    
+ }
+
+ console.log(switchcarshop('mazda' , 10000000))
+ console.log(switchcarshop('ford' , 20000000))
+ console.log(switchcarshop('chevrolet' , 30000000))
 
 

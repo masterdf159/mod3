@@ -24,10 +24,13 @@ const b = 50;
 
 if (a > b){
     console.log('es mayor')
-}else if (a !== b)
+}else if (a >= b)
 {
-    console.log('diferentes')
+    console.log('es mayor o igual')
 }
-else{
-    console.log('no es mayor')
+else if(a <= b){
+    console.log('es menor o igual')
+}
+else if( a == b){
+   console.log('es igual')
 }

@@ -165,7 +165,8 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
  */
 
 
- carshop()
+
+
 
  function switchcarshop(marca , valor){
        const mazda = 5/100
@@ -174,22 +175,20 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
 
         switch(marca){
         case 'Mazda':
-        return 'costo del carro es ${valor} y su descuento es de ${valor * mazda}'
+        return `costo del carro es ${valor} y su descuento es de ${valor * mazda}`
         break;
         case 'ford':
-        return 'costo del carro es ${valor} y su descuento es de ${valor * ford}'
+        return `costo del carro es ${valor} y su descuento es de ${valor * ford}`
         break;
         case 'chevrolet':
-        return 'costo del carro es ${valor} y su descuento es de ${valor * chevrolet}'
+        return `costo del carro es ${valor} y su descuento es de ${valor * chevrolet}`
         break;
-
         default:
-            console.log('operador no esta definido')
-    
-        }
-    
-        
-    
+        console.log('no hay descuento')
+
+    }
+
+  
  }
 
  console.log(switchcarshop('mazda' , 10000000))

@@ -132,6 +132,8 @@ function switchOperation (operador) {
     
 }
 
+<s></s>
+
 
 console.log(switchOperation('suma'), 'suma')
 console.log(switchOperation('resta'), 'resta')

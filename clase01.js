@@ -58,4 +58,46 @@ function newFunction() {
 }
 
 
+function suma(x,y){
+    return x + y
+}
+
+function resta(x,y){
+    return x - y
+}
+
+function multi(x,y){
+    return x * y
+}
+function divi(x,y){
+    return x / y
+}
+
+
+
+operadores()
+console.log(operadores('suma'))
+console.log(operadores('resta'))
+console.log(operadores('multi'))
+console.log(operadores('divi'))
+
+function operadores(action){
+    const x = 12
+    const y = 30
+
+    if(action == suma){
+       return suma(x,y)
+    }else if(action == resta){
+       return resta(x,y)
+    }else if(action == multi){
+       return multi(x,y)
+    }else if(action == divi){
+       return divi(x,y)
+    }else {
+        console.log('no hay operacion disponible')
+    }
+
+    
+}
+
 

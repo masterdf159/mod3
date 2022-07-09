@@ -75,8 +75,8 @@ function divi(x,y){
 
 
 
-
-/* operadores()
+/*
+ operadores()
 
 
 function operadores(action){
@@ -96,7 +96,15 @@ function operadores(action){
     }
 
 
-} */
+} 
+
+console.log(operadores('suma'), 'suma')
+console.log(operadores('resta'), 'resta')
+console.log(operadores('multi'), 'multi')
+console.log(operadores('divi'), 'divi')
+
+*/
+
 
 switchOperation()
 

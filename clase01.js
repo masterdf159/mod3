@@ -12,5 +12,5 @@ console.log('resualtado division es:' , divi)
 
 const text = 'hola'
 const longitudtext = text.length < 2
-console(longitudtext, 'longitudtext')
+console.log(longitudtext, 'longitudtext')
 

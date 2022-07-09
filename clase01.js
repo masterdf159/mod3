@@ -103,5 +103,27 @@ console.log(operadores('resta'), 'resta')
 console.log(operadores('multi'), 'multi')
 console.log(operadores('divi'), 'divi')
 
+function switchOperation (operador) {
+    switch(operador){
+    case 'suma':
+    return suma(a,b);
+    break;
+    case 'resta':
+    return resta(a,b);
+    break;
+    case 'multi':
+    return multi(a,b);
+    break;
+    case 'divi':
+    return divi(a,b);
+    break;
+    default:
+        console.log('operador no esta definido')
+
+    }
+
+    
+}
+
 
 

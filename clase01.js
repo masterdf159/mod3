@@ -10,3 +10,7 @@ console.log('resultado resta es:', resta)
 console.log('resultado multiplicacion es:' , multi)
 console.log('resualtado division es:' , divi)
 
+const text = 'hola'
+const longitudtext = text.length < 2
+console(longitudtext, 'longitudtext')
+

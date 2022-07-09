@@ -141,4 +141,8 @@ console.log(switchOperation('multi'), 'multi')
 console.log(switchOperation('divi'), 'divi')
 
 
-
+/* 
+Pepe tiene 24 años Ana 32 años y luis 10 años su abuelo dejo una herencia
+para los menores de 25 deberan mostrar en consola obtiene 100.000 mil pesos 
+mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
+ tienes 30000 de herencia y debera mostrar en consola los 30000. */

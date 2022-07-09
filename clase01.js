@@ -19,18 +19,21 @@ arr.push('juan')
 console.log(arr[4])
 
 
-const a = 30;
-const b = 50;
+newFunction()
 
-if (a > b){
-    console.log('es mayor')
-}else if (a >= b)
-{
-    console.log('es mayor o igual')
-}
-else if(a <= b){
-    console.log('es menor o igual')
-}
-else if( a == b){
-   console.log('es igual')
+function newFunction() {
+    const a = 30
+    const b = 50
+
+    if (a > b) {
+        console.log('es mayor')
+    } else if (a >= b) {
+        console.log('es mayor o igual')
+    }
+    else if (a <= b) {
+        console.log('es menor o igual')
+    }
+    else if (a == b) {
+        console.log('es igual')
+    }
 }

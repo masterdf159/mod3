@@ -75,6 +75,7 @@ function divi(x,y){
 
 
 
+
 operadores()
 
 
@@ -104,18 +105,20 @@ console.log(operadores('multi'), 'multi')
 console.log(operadores('divi'), 'divi')
 
 function switchOperation (operador) {
+    const x = 12
+    const y = 30
     switch(operador){
     case 'suma':
-    return suma(a,b);
+    return suma(x,y);
     break;
     case 'resta':
-    return resta(a,b);
+    return resta(x,y);
     break;
     case 'multi':
-    return multi(a,b);
+    return multi(x,y);
     break;
     case 'divi':
-    return divi(a,b);
+    return divi(x,y);
     break;
     default:
         console.log('operador no esta definido')

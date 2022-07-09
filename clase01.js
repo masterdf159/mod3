@@ -174,7 +174,7 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
        const chevrolet = 50/100
 
         switch(marca){
-        case 'Mazda':
+        case 'mazda':
         return `costo del carro es ${valor} y su descuento es de ${valor * mazda}`
         break;
         case 'ford':

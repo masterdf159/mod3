@@ -97,9 +97,9 @@ function operadores(action){
     
 }
 
-console.log(operadores('suma'))
-console.log(operadores('resta'))
-console.log(operadores('multi'))
-console.log(operadores('divi'))
+console.log(operadores('suma'), 'suma')
+console.log(operadores('resta'), 'resta')
+console.log(operadores('multi'), 'multi')
+console.log(operadores('divi'), 'divi')
 
 

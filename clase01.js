@@ -148,10 +148,12 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
  tienes 30000 de herencia y debera mostrar en consola los 30000. */
 
 
- ejercicio()
+ /* ejercicio()
 
  function ejercicio(){
 
- }
+ }*/
+
+ 
 
 

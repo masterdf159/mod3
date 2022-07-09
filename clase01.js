@@ -14,3 +14,20 @@ const text = 'hola'
 const longitudtext = text.length < 2
 console.log(longitudtext, 'longitudtext')
 
+const arr =['pepe', 2 ,'aguilar', 4]
+arr.push('juan')
+console.log(arr[4])
+
+
+const a = 30;
+const b = 50;
+
+if (a > b){
+    console.log('es mayor')
+}else if (a !== b)
+{
+    console.log('diferentes')
+}
+else{
+    console.log('no es mayor')
+}

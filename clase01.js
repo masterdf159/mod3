@@ -1,9 +1,6 @@
 
-var x = myFunction(4, 3);
-document.getElementById("clase01.hmtl/multi").innerHTML = x;
+const x = 12;
+const y = 20;
+let t = x + y;
+console.log(t)
 
-function myFunction(a, b) {
-  return a * b;
-}
-
-console.log(x)

@@ -76,22 +76,19 @@ function divi(x,y){
 
 
 operadores()
-console.log(operadores('suma'))
-console.log(operadores('resta'))
-console.log(operadores('multi'))
-console.log(operadores('divi'))
+
 
 function operadores(action){
     const x = 12
     const y = 30
 
-    if(action == suma){
+    if(action == 'suma'){
        return suma(x,y)
-    }else if(action == resta){
+    }else if(action == 'resta'){
        return resta(x,y)
-    }else if(action == multi){
+    }else if(action == 'multi'){
        return multi(x,y)
-    }else if(action == divi){
+    }else if(action == 'divi'){
        return divi(x,y)
     }else {
         console.log('no hay operacion disponible')
@@ -99,5 +96,10 @@ function operadores(action){
 
     
 }
+
+console.log(operadores('suma'))
+console.log(operadores('resta'))
+console.log(operadores('multi'))
+console.log(operadores('divi'))
 
 

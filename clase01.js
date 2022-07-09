@@ -125,10 +125,10 @@ function switchOperation (operador) {
 }
 
 
-console.log(operadores('suma'), 'suma')
-console.log(operadores('resta'), 'resta')
-console.log(operadores('multi'), 'multi')
-console.log(operadores('divi'), 'divi')
+console.log(switchOperation('suma'), 'suma')
+console.log(switchOperation('resta'), 'resta')
+console.log(switchOperation('multi'), 'multi')
+console.log(switchOperation('divi'), 'divi')
 
 
 

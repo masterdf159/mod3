@@ -114,16 +114,12 @@ function switchOperation (operador) {
     switch(operador){
     case 'suma':
     return suma(x,y);
-    break;
     case 'resta':
     return resta(x,y);
-    break;
     case 'multi':
     return multi(x,y);
-    break;
     case 'divi':
     return divi(x,y);
-    break;
     default:
         console.log('operador no esta definido')
 
@@ -176,13 +172,10 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
         switch(marca){
         case 'mazda':
         return `costo del carro es ${valor} y su descuento es de ${valor * mazda}`
-        break;
         case 'ford':
         return `costo del carro es ${valor} y su descuento es de ${valor * ford}`
-        break;
         case 'chevrolet':
         return `costo del carro es ${valor} y su descuento es de ${valor * chevrolet}`
-        break;
         default:
         console.log('no hay descuento')
 

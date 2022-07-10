@@ -164,7 +164,7 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
 
 
 
- function switchcarshop(marca , valor){
+ /* function switchcarshop(marca , valor){
        const mazda = 5/100
        const ford = 10/100
        const chevrolet = 50/100
@@ -186,6 +186,6 @@ mas que sus hermanos si tienen 24 años en adelante debera mostrar en consola
 
  console.log(switchcarshop('mazda' , 10000000))
  console.log(switchcarshop('ford' , 20000000))
- console.log(switchcarshop('chevrolet' , 30000000))
+ console.log(switchcarshop('chevrolet' , 30000000)) */
 
 

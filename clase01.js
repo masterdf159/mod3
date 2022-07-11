@@ -1,6 +1,6 @@
-newFunction_constan()
+newFunction_constante()
 
-function newFunction_constan(){
+function newFunction_constante(){
 
 const x = 12
 const y = 30
@@ -15,6 +15,7 @@ console.log('resultado multiplicacion es:' , multi)
 console.log('resualtado division es:' , divi)
 
 }
+
 
 
 

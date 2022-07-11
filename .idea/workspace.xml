@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a98055-2a0e-465f-864c-e216febe09f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/clase01.html" beforeDir="false" afterPath="$PROJECT_DIR$/clase01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clase01.js" beforeDir="false" afterPath="$PROJECT_DIR$/clase01.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="clase01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="clase01.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.clase01.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657550290346</updated>
-      <workItem from="1657550292070" duration="98000" />
+      <workItem from="1657550292070" duration="348000" />
     </task>
     <servers />
   </component>

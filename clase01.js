@@ -106,7 +106,7 @@ console.log(operadores('divi'), 'divi')
 */
 
 
-switchOperation()
+/*switchOperation()
 
 function switchOperation (operador) {
     const x = 12
@@ -125,7 +125,7 @@ function switchOperation (operador) {
 
     }
 
-    
+   
 }
 
 
@@ -134,7 +134,7 @@ function switchOperation (operador) {
 console.log(switchOperation('suma'), 'suma')
 console.log(switchOperation('resta'), 'resta')
 console.log(switchOperation('multi'), 'multi')
-console.log(switchOperation('divi'), 'divi')
+console.log(switchOperation('divi'), 'divi')*/
 
 
 /* 

@@ -19,7 +19,7 @@ console.log('resualtado division es:' , divi)
 
 
 
-newFunction_text()
+/* newFunction_text()
 
 function newFunction_text()
 {
@@ -37,9 +37,9 @@ arr.push('juan')
 console.log(arr[4])
 
 }
+*/
 
-
-newFunction()
+/* newFunction()
 
 function newFunction() {
     const a = 30
@@ -73,7 +73,7 @@ function multi(x,y){
 function divi(x,y){
     return x / y
 }
-
+*/
 
 
 /*

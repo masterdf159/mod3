@@ -16,7 +16,7 @@ for(let i = 0; 100 > i; i++){
 
 
 
-function values(){
+/* function values(){
     const value = [
         {num1: 12, num2: 222},
         {num1: 3, num2: 11},
@@ -32,4 +32,4 @@ for(let i = 0; i < value.length; i++){
 }
 return 'OK'
 }
-console.log(values())
+console.log(values()) */

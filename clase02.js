@@ -28,7 +28,8 @@ function values(){
 
 for(let i = 0; i < value.length; i++){ 
     
-     console.log( `La Suma es de ${value[i].num1 + value[i].num2}`, `La multi es de ${value[i].num1 * value[i].num2}`)
+     console.log( `La Suma de ${value[i].num1}  y ${value[i].num2} es: ${value[i].num1 + value[i].num2}`, `La multi de ${value[i].num1}  y ${value[i].num2} es: ${value[i].num1 * value[i].num2}`)
 }
+return 'OK'
 }
 console.log(values())

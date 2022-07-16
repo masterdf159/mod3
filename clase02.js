@@ -29,7 +29,7 @@ function values(){
 for(let i = 0; i < value.length; i++){ 
      suma = num1 + num2
      multi = num1 * num2 
-     console.log( `La Suma de ${value[i].num1 + value[i].num2}`  , `La multi de ${value[i].num1 * value[i].num2}`)
+     console.log( `La Suma de ${value[i].num1 + value[i].num2}`, suma , `La multi de ${value[i].num1 * value[i].num2}` , multi)
 }
 }
 console.log(values())

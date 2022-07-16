@@ -24,7 +24,7 @@ function init(){
     var cero = document.getElementById('cero');
   }
 
-  //Eventos de click
+// Eventos Seguimiento
 uno.onclick = function(e){
     resultado.textContent = resultado.textContent  + "1";
 }

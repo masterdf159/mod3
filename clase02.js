@@ -21,11 +21,7 @@ const value = [
     {num1: 555, num2: 888},
 ];
 
-function values(){
-for(let i = 0; i < value.length; i++){
-    if(value[i]!=0){
-     total = total + (value[i]*total);
-      }
-}return total;
+
+for(let i = 0; i < value.length; i++){  
+     console.log('Multi' , value[i].num1*value[i.num2])
 }
-console.log(values());

@@ -12,7 +12,7 @@ for(let i = 0; 100 > i; i++){
 } */
 
 
-const total= 0
+
 const value = [
     {num1: 12, num2: 222},
     {num1: 3, num2: 11},

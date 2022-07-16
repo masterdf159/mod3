@@ -13,13 +13,7 @@
     height: 70px;
     font-size: 25px;
   }
-  #creditos{
-    display:block;
-    padding-top:20px;
-    color:#fff;
-    text-align: center;
-    width:300px;
-  }
+
   #resultado{
     display:block;
     text-align: center;

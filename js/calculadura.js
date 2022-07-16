@@ -25,7 +25,7 @@ function init(){
   }
 
   //Eventos de click
-  uno.onclick = function(e){
+uno.onclick = function(e){
     resultado.textContent = resultado.textContent  + "1";
 }
 dos.onclick = function(e){

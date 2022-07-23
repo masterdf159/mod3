@@ -1,4 +1,4 @@
-function pesodolares(valNum) {
+function pesodolar(valNum) {
     document.getElementById("pesodolar").value=valNum/4,408.03;
   }
   function pesoeuro(valNum) {

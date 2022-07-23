@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convesion de moneda</title>
+</head>
+<body>
+
+    <div class="hidden-xs sidebar_block">
+        <span class="sidebar_header">Convierte tu Moneda!</span>
+        <form class="sidebar_form" role="form" action="/page-convert" method="post">
+           <input type="hidden" name="session" value="l8tjf1fdt9t638958t530m9dvuo2jj8a">
+           <div class="form-group">
+              <input type="number" step="any" class="form_amount" name="amount" placeholder="¿Cuánto?" autocomplete="off" required="">
+           </div>
+           <div class="form-group">
+              <div class="form-group">
+                 <div class="easy-autocomplete" style="width: 330px;">
+                    <input name="from" type="text" class="form_amount" id="input_from" autocomplete="off">
+                    <div class="easy-autocomplete-container" id="eac-container-input_from">
+                       <ul style="display: none;">
+                          <li>
+                             <div class="eac-item"><span class="flag flag-col"></span> Peso Colombiano - COL</div>
+                          </li>
+                       </ul>
+                    </div>
+                 </div>
+                 <input name="select1" type="hidden" id="currency_from" value="cop">
+              </div>
+           </div>
+           <div class="form-group">
+              <div class="form-group">
+                 <div class="easy-autocomplete" style="width: 330px;">
+                    <input name="to" type="text" class="form_amount" id="input_to" autocomplete="off">
+                    <div class="easy-autocomplete-container" id="eac-container-input_to">
+                       <ul style="display: none;">
+                          <li class="selected">
+                             <div class="eac-item"><span class="flag flag-us"></span> Dolar Americano - USD</div>
+                          </li>
+                          <li class="">
+                             <div class="eac-item"><span class="flag flag-eu"></span> Euro - EUR</div>
+                          </li>
+                       </ul>
+                    </div>
+                 </div>
+                 <input name="select2" type="hidden" id="currency_to" value="usd">
+              </div>
+           </div>
+           <button type="submit" class="green_button btn btn-default btn-block btn-lg"><img class="icon form" src="https://u3t8x5g4.stackpathcdn.com/assets/images/sync-alt-solid.svg" alt="Let's convert"> Convert</button>
+        </form>
+     </div>
+    
+</body>
+</html>

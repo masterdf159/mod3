@@ -4,12 +4,12 @@ function convertir(){
     var resultado = 0
     var dolar = 4408
     var euro = 4501
-    if(document.getElementById("usd").select){
+    if(document.getElementById("usd").checked){
         resultado = valore / dolar
         alert("EL cambio de Pesos Colombianos a Dolares es: $" + resultado.toFixed(2))
         
     }
-    else if(document.getElementById("eu").select)
+    else if(document.getElementById("eu").checked)
     {
         resultado = valore / euro
         alert("EL cambio de Pesos Colombianos a Euros es: €" + resultado.toFixed(2))

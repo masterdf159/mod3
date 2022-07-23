@@ -13,7 +13,7 @@ function convertir() {
         
     }
     
-    else if(document.getElementById("eu").value=="eu")
+    if(document.getElementById("eu").value=="eu")
     {
         resultado = valore / euro
         alert("EL cambio de Pesos Colombianos a Euros es: €" + resultado.toFixed(2))

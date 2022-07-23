@@ -10,7 +10,7 @@
     <h2>Tasa de Cambio
         <form action="" class="seleccion">
             <p>Selecciona Moneda a Cambiar:</p>
-            <input type="number" id="valorC" placeholder="(*)Ingresa el valor a cambiar" min="1" max="100000000000000000">
+            <input type="number" id="valor" placeholder="(*)Ingresa el valor a cambiar" min="1" max="100000000000000000">
                 <select name="moneda1" id="estilo1">
                     <optgroup label="Primera Divisa">
                       <option value="COP" id="COP"><img src="" alt="">COP</option>
@@ -23,7 +23,7 @@
                     </optgroup>
 
                 </select>
-                <input type="submit" value="Convetir" id="convertir" ondblclick="convertir()">
+                <input type="submit" value="Convetir" id="convertir" onclick="convertir()">
         </form>
     </h2>
     

@@ -11,9 +11,7 @@ function convertir() {
         resultado = valore / dolar
         alert("EL cambio de Pesos Colombianos a Dolares es: $" + resultado.toFixed(2))
         
-    }
-    
-    if(document.getElementById("eu").value=="eu")
+    } else if(document.getElementById("eu").value=="eu")
     {
         resultado = valore / euro
         alert("EL cambio de Pesos Colombianos a Euros es: €" + resultado.toFixed(2))

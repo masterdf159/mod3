@@ -4,7 +4,9 @@ html {
 }
 
 body {
-	margin: 0
+	margin: auto;
+    height: 450px;
+    width: 450px;
 }
 
 article,

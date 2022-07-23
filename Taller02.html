@@ -11,12 +11,19 @@
     <h2>Tasa de Cambio
         <form action="" class="seleccion">
             <p>Selecciona Moneda a Cambiar:</p>
-                <select name="moneda1">
-                    <optgroup label="Peso Colombiano">
+            <input type="text" id="valorC" placeholder="(*)Ingresa el valor a cambiar">
+                <select name="moneda1" id="estilo1">
+                    <optgroup label="Primera Divisa">
                       <option value="COP" id="COP"><img src="" alt="">COP</option>
                     </optgroup>
                 </select>
-                <select></select>
+                <select name="moneda2" id="estilo2">
+                    <optgroup label="Segunda Divisa">
+                        <option value="USD" id="USD"><img src="" alt="">USD</option>
+                        <option value="EU" id="EU"><img src="" alt="">EU</option>
+                    </optgroup>
+
+                </select>
                 <input type="submit" value="Convetir"
         </form>
     </h2>
